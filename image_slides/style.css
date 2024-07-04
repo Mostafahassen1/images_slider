@@ -1,0 +1,43 @@
+ *{
+    background-color: rgb(47, 48, 47);
+    column-gap: normal;
+ }
+ 
+ .slider{
+    margin: 100px auto;
+    width: 750px;
+   
+} 
+
+.slide{
+    border: 2px solid #afabab;
+    width: 600px;
+    height: 350px;
+     overflow: hidden; 
+    float: left;
+    position: relative;
+   
+}
+.slide img{
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+ .prev , .next{
+   
+   
+    float: left;
+    margin-top: 150Px; 
+} 
+
+.prev{
+    width: 40px;
+}
+.next{
+    width: 28px;
+}
+
+.slide .show{
+    display: inline-block;
+}
